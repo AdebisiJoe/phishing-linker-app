@@ -1,7 +1,3 @@
-Sure! Here is a detailed and beautiful README for your phishing-linker-app:
-
----
-
 # Phishing Linker App
 
 A Node.js and Express.js application for identifying and linking similar phishing websites based on common patterns or indicators. The app uses ArangoDB for data storage and provides RESTful APIs for basic CRUD operations.
@@ -201,7 +197,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Express.js](https://expressjs.com/)
 - [ArangoDB](https://www.arangodb.com/)
 - [dotenv](https://github.com/motdotla/dotenv)
-
----
-
-This README provides a comprehensive overview of your phishing-linker-app, including installation steps, API documentation, and instructions for contributing.
