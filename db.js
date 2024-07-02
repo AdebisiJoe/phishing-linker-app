@@ -1,10 +1,15 @@
-// db.js
-const { Database } = require('arangojs');
+import { config } from 'dotenv';
+import { Database } from 'arangojs';
+
+config();
 
 const db = new Database({
-  url: 'http://localhost:8529',
-  databaseName: 'phishingDB',
-  auth: { username: 'root', password: '' }
+  url: process.env.ARANGO_URL,
+  databaseName: process.env.ARANGO_DB,
+  auth: { 
+    username: process.env.ARANGO_USER, 
+    password: process.env.ARANGO_PASSWORD 
+  }
 });
 
-module.exports = db;
+export default db;

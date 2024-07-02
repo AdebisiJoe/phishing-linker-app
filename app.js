@@ -1,10 +1,12 @@
-// app.js
-const express = require('express');
-const bodyParser = require('body-parser');
-const db = require('./db');
+import { config } from 'dotenv';
+import express from 'express';
+import bodyParser from 'body-parser';
+import db from './db.js';
+
+config();
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
