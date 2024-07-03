@@ -28,7 +28,7 @@ A Node.js and Express.js application for identifying and linking similar phishin
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-username/phishing-linker-app.git
+   git clone https://github.com/AdebisiJoe/phishing-linker-app.git
    cd phishing-linker-app
    ```
 
